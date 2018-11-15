@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [Model.cs](./CS/Model.cs) (VB: [Model.vb](./VB/Model.vb))
+<!-- default file list end -->
 # How to generate bands based on a collection in a ViewModel
 
 
