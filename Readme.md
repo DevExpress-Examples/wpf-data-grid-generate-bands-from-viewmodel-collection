@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MyGridControl.cs](./CS/Controls/MyGridControl.cs) (VB: [MyGridControl.vb](./VB/Controls/MyGridControl.vb))
+* [MyGridControlBand.cs](./CS/Controls/MyGridControlBand.cs) (VB: [MyGridControlBand.vb](./VB/Controls/MyGridControlBand.vb))
+* [DependencyObjectHelper.cs](./CS/Extensions/DependencyObjectHelper.cs) (VB: [DependencyObjectHelper.vb](./VB/Extensions/DependencyObjectHelper.vb))
+* [MyColumnTemplateSelector.cs](./CS/Extensions/MyColumnTemplateSelector.cs) (VB: [MyColumnTemplateSelector.vb](./VB/Extensions/MyColumnTemplateSelector.vb))
+* [GridViewModel.cs](./CS/ViewModels/GridViewModel.cs) (VB: [GridViewModel.vb](./VB/ViewModels/GridViewModel.vb))
+* **[GridView.xaml](./CS/Views/GridView.xaml) (VB: [GridView.xaml](./VB/Views/GridView.xaml))**
+<!-- default file list end -->
 # How to generate bands based on a collection in a ViewModel
 
 
