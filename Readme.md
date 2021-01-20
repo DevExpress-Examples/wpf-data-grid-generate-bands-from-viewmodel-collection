@@ -9,7 +9,8 @@
 
 # WPF MVVM How to Bind the GridContol to a Collection of Bands Specified in ViewModel
 
-
 This topic describes how to define bands in a ViewModel and bind them to the GridControl's band collection.
+
+![](/Images/wpf_grid_mvvm_bandcolumns125100.png)
 
 For more information, refer to the following help topic: [How to: Bind the Grid to Total and Group Summaries](http://docs.devexpress.com/WPF/117249/controls-and-libraries/data-grid/mvvm-enhancements/binding-to-a-collection-of-bands).
