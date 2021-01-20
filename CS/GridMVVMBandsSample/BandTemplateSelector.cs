@@ -5,7 +5,6 @@ namespace GridMVVMBandsSample {
     public class BandTemplateSelector : DataTemplateSelector {
 
         public DataTemplate SingleColumnBandTemplate { get; set; }
-
         public DataTemplate MultiColumnBandTemplate { get; set; }
 
         public override DataTemplate SelectTemplate(object item, DependencyObject container) {
