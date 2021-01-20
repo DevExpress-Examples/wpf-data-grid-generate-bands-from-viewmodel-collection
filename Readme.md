@@ -2,8 +2,8 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/GridMVVMBandsSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/GridMVVMBandsSample/MainWindow.xaml))
-* [EmploeesViewModel.cs](./CS/GridMVVMBandsSample/EmploeesViewModel.cs) (VB: [EmploeesViewModel.vb](./VB/GridMVVMBandsSample/EmploeesViewModel.vb))
-* [EmploeesDataModel.cs](./CS/GridMVVMBandsSample/EmploeesDataModel.cs) (VB: [EmploeesDataModel.vb](./VB/GridMVVMBandsSample/EmploeesDataModel.vb))
+* [EmployeesViewModel.cs](./CS/GridMVVMBandsSample/EmployeesViewModel.cs) (VB: [EmployeesViewModel.vb](./VB/GridMVVMBandsSample/EmployeesViewModel.vb))
+* [EmployeesDataModel.cs](./CS/GridMVVMBandsSample/EmployeesDataModel.cs) (VB: [EmployeesDataModel.vb](./VB/GridMVVMBandsSample/EmployeesDataModel.vb))
 * [BandTemplateSelector.cs](./CS/GridMVVMBandsSample/BandTemplateSelector.cs) (VB: [BandTemplateSelector.vb](./VB/GridMVVMBandsSample/BandTemplateSelector.vb))
 <!-- default file list end -->
 
