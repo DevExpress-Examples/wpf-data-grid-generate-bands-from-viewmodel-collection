@@ -1,15 +1,15 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/dxSampleGrid/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/dxSampleGrid/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/dxSampleGrid/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/dxSampleGrid/MainWindow.xaml))
-* [ViewModel.cs](./CS/dxSampleGrid/ViewModel.cs) (VB: [ViewModel.vb](./VB/dxSampleGrid/ViewModel.vb))
+* [MainWindow.xaml](./CS/GridMVVMBandsSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/GridMVVMBandsSample/MainWindow.xaml))
+* [EmploeesViewModel.cs](./CS/GridMVVMBandsSample/EmploeesViewModel.cs) (VB: [EmploeesViewModel.vb](./VB/GridMVVMBandsSample/EmploeesViewModel.vb))
+* [EmploeesDataModel.cs](./CS/GridMVVMBandsSample/EmploeesDataModel.cs) (VB: [EmploeesDataModel.vb](./VB/GridMVVMBandsSample/EmploeesDataModel.vb))
+* [BandTemplateSelector.cs](./CS/GridMVVMBandsSample/BandTemplateSelector.cs) (VB: [BandTemplateSelector.vb](./VB/GridMVVMBandsSample/BandTemplateSelector.vb))
 <!-- default file list end -->
-# How to generate bands based on a collection in a ViewModel
+
+# WPF MVVM How to Bind the GridContol to a Collection of Bands Specified in ViewModel
 
 
-<p>The following sample demonstrates how to generate bands from a collection in a ViewModel using the MVVM architectural pattern. This is done by using the <a href="https://documentation.devexpress.com/WPF/DevExpressXpfGridDataControlBase_BandsSourcetopic.aspx">BandsSource</a> and <a href="https://documentation.devexpress.com/WPF/DevExpressXpfGridDataControlBase_BandGeneratorTemplatetopic.aspx">BandGeneratorTemplate</a> properties. To learn more, see <a href="https://documentation.devexpress.com/WPF/CustomDocument117249.aspx">Binding to a Collection of Bands</a>.</p>
+This topic describes how to define bands in a ViewModel and bind them to the GridControl's band collection.
 
-<br/>
-
-
+For more information, refer to the following help topic: [How to: Bind the Grid to Total and Group Summaries](http://docs.devexpress.com/WPF/117249/controls-and-libraries/data-grid/mvvm-enhancements/binding-to-a-collection-of-bands).
