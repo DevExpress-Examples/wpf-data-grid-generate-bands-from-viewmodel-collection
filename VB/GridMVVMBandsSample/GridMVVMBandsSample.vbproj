@@ -102,7 +102,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BandTemplateSelector.vb" />
-    <Compile Include="EmploeesViewModel.vb" />
+    <Compile Include="EmployeesViewModel.vb" />
     <Compile Include="EmployeesDataModel.vb" />
     <Compile Include="MainWindow.xaml.vb">
       <DependentUpon>MainWindow.xaml</DependentUpon>

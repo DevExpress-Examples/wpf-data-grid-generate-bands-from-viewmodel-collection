@@ -6,7 +6,6 @@ Namespace GridMVVMBandsSample
 		Inherits DataTemplateSelector
 
 		Public Property SingleColumnBandTemplate() As DataTemplate
-
 		Public Property MultiColumnBandTemplate() As DataTemplate
 
 		Public Overrides Function SelectTemplate(ByVal item As Object, ByVal container As DependencyObject) As DataTemplate
