@@ -7,7 +7,7 @@
 * [BandTemplateSelector.cs](./CS/GridMVVMBandsSample/BandTemplateSelector.cs) (VB: [BandTemplateSelector.vb](./VB/GridMVVMBandsSample/BandTemplateSelector.vb))
 <!-- default file list end -->
 
-# How to Bind the WPF GridContol to a Collection of Bands Specified in ViewModel
+# How to Bind the WPF GridControl to a Collection of Bands Specified in ViewModel
 
 This topic describes how to define bands in a ViewModel and bind them to the GridControl's band collection.
 
