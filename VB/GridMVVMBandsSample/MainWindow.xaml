@@ -13,25 +13,18 @@
     </Window.DataContext>
     <Window.Resources>
         <DataTemplate x:Key="ColumnTemplate">
-            <ContentControl>
-                <dxg:GridColumn FieldName="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).FieldName, RelativeSource={RelativeSource Self}}" />
-            </ContentControl>
+            <dxg:GridColumn FieldName="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).FieldName, RelativeSource={RelativeSource Self}}"/>
         </DataTemplate>
         <DataTemplate x:Key="MultiColumnBandTemplate">
-            <ContentControl>
-                <dxg:GridControlBand Header="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).Header, RelativeSource={RelativeSource Self}}" 
-                                     ColumnsSource="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).ChildColumns, RelativeSource={RelativeSource Self} }" 
-                                     ColumnGeneratorTemplate="{StaticResource ColumnTemplate}">
-                </dxg:GridControlBand>
-            </ContentControl>
+            <dxg:GridControlBand Header="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).Header, RelativeSource={RelativeSource Self}}" 
+                                 ColumnsSource="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).ChildColumns, RelativeSource={RelativeSource Self} }" 
+                                 ColumnGeneratorTemplate="{StaticResource ColumnTemplate}"/>
         </DataTemplate>
         <DataTemplate x:Key="SingleColumnBandTemplate">
-            <ContentControl>
-                <dxg:GridControlBand Header="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).Header, RelativeSource={RelativeSource Self}}" 
-                                     ColumnsSource="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).ChildColumns, RelativeSource={RelativeSource Self} }" 
-                                     ColumnGeneratorTemplate="{StaticResource ColumnTemplate}" 
-                                     OverlayHeaderByChildren="True" />
-            </ContentControl>
+            <dxg:GridControlBand Header="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).Header, RelativeSource={RelativeSource Self}}" 
+                                 ColumnsSource="{Binding Path=(dxci:DependencyObjectExtensions.DataContext).ChildColumns, RelativeSource={RelativeSource Self} }" 
+                                 ColumnGeneratorTemplate="{StaticResource ColumnTemplate}" 
+                                 OverlayHeaderByChildren="True"/>
         </DataTemplate>
         <local:BandTemplateSelector x:Key="BandTemplateSelector" 
                                     MultiColumnBandTemplate="{StaticResource MultiColumnBandTemplate}" 
