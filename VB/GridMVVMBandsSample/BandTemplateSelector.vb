@@ -13,7 +13,7 @@ Namespace GridMVVMBandsSample
 			If band Is Nothing Then
 				Return Nothing
 			End If
-			If band.ChildColumns.Count = 1 Then
+			If band.Header = "Position" Then
 				Return SingleColumnBandTemplate
 			End If
 			Return MultiColumnBandTemplate
