@@ -10,7 +10,7 @@ namespace GridMVVMBandsSample {
         public override DataTemplate SelectTemplate(object item, DependencyObject container) {
             Band band = item as Band;
             if(band == null) return null;
-            if(band.ChildColumns.Count == 1) {
+            if(band.Header == "Position") {
                 return SingleColumnBandTemplate;
             }
             return MultiColumnBandTemplate;
