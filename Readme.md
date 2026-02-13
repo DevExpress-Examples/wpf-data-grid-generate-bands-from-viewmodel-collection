@@ -32,7 +32,7 @@ This example demonstrates how to define bands in a ViewModel collection and gene
 * [WPF Data Grid - Generate Columns from a ViewModel Collection](https://github.com/DevExpress-Examples/wpf-data-grid-bind-columns-to-viewmodel-collection)
 * [WPF Data Grid - Generate Total and Group Summaries from a ViewModel Collection](https://github.com/DevExpress-Examples/wpf-mvvm-how-to-bind-the-gridcontrol-to-total-and-group-summaries-specified-in-viewmodel)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-generate-bands-from-viewmodel-collection&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-generate-bands-from-viewmodel-collection&~~~was_helpful=no)
 
